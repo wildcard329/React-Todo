@@ -42,7 +42,7 @@ class App extends React.Component {
       completed: false
     }
     this.setState({
-      completed: [...this.state.completed, newTodo]
+      todos: [...this.state.todos, newTodo]
     })
   }
 
