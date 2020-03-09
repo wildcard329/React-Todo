@@ -2,6 +2,12 @@ import React from 'react';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 
+const todos = {
+  name: 'build cool ToDo app',
+  id: 1,
+  completed: false
+}
+
 class App extends React.Component {
   // you will need a place to store your state in this component.
   // design `App` to be the parent component of your application.
@@ -9,14 +15,14 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todo: todo,
+      todos: todos,
       name: ''
     }
   }
 
   toggleCompleted = clickedTodoId => {
     this.setState({
-      todo: this.state.todos.map(todo => {
+      todos: this.state.todos.map(todo => {
         if (todo.id === clickedTodoId) {
           return {
             ...todo,
