@@ -1,0 +1,25 @@
+body {
+    background-color: #2d2d37;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+.todo-list {
+    display: flex;
+}
+
+.todo {
+    background-color: #d17d7c;
+}
+
+.todo.completed {
+    text-decoration: line-through;
+}
