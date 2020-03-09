@@ -2,11 +2,11 @@ import React from 'react';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 
-const todos = {
+const todos = [{
   name: 'build cool ToDo app',
   id: 1,
   completed: false
-}
+}]
 
 class App extends React.Component {
   // you will need a place to store your state in this component.
