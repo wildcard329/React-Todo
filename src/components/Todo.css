@@ -1,20 +1,22 @@
 body {
-    background-color: #2d2d37;
+    background-color: black;
 }
 
 .header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 h1 {
     text-align: left;
+    color: lime;
 }
 
 .todo-list {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .todo {
@@ -44,6 +46,7 @@ form > input {
     width: 240px;
     outline: 0;
     border-bottom: 1px solid lime;
+    border-right: 1px solid lime;
     margin-right: 8px;
 }
 
