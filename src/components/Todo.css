@@ -1,0 +1,66 @@
+body {
+    background-color: #2d2d37;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+.todo-list {
+    display: flex;
+}
+
+.todo {
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.todo.completed {
+    text-decoration: line-through;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form > input {
+    background-color:  black;
+    color: lime;
+    border: 0;
+    padding: 6px 0;
+    font-size: 1rem;
+    width: 240px;
+    outline: 0;
+    border-bottom: 1px solid lime;
+    margin-right: 8px;
+}
+
+button {
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
+    font-size: 16px;
+    padding: 6px 14px;
+}
+
+input::placeholder {
+    color: lime;
+    opacity: 1;
+  }
+  
+  .clear-btn {
+    margin-top: 16px;
+  }
+  
