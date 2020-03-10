@@ -4,17 +4,19 @@ body {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 h1 {
     text-align: left;
+    color: lime;
 }
 
 .todo-list {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .todo {
